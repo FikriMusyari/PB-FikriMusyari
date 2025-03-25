@@ -2,4 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="colorPrimary">#dfe3ee</color> <!-- Warna utama aplikasi -->
+    <color name="colorPrimaryDark">#3700B3</color> <!-- Warna gelap utama -->
+    <color name="colorAccent">#6497b1</color> <!-- Warna aksen -->
 </resources>
