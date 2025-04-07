@@ -10,7 +10,6 @@
         android:orientation="vertical"
         android:padding="16dp">
 
-        <!-- CardView untuk Pencatatan Keuangan -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -32,13 +31,11 @@
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
-                <!-- Input untuk Pencatatan Keuangan -->
-
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etFinancialRecord"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:hint="Masukkan Log Finance"
+                    android:layout_height="48dp"
+                    android:hint="Masukkan Catatan Finance"
                     android:inputType="text" />
 
                 <Button
@@ -47,8 +44,13 @@
                     android:layout_height="wrap_content"
                     android:text="Tambah Pencatatan"
                     android:backgroundTint="@color/black"/>
+                <Button
+                    android:id="@+id/btnSeeFinancialRecord"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Record"
+                    android:backgroundTint="#66b2b2"/>
 
-                <!-- Menampilkan Pencatatan Keuangan yang sudah ditambahkan -->
                 <TextView
                     android:id="@+id/tvFinancialRecords"
                     android:layout_width="match_parent"
@@ -59,7 +61,6 @@
             </LinearLayout>
         </androidx.cardview.widget.CardView>
 
-        <!-- CardView untuk Memo -->
         <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -81,11 +82,10 @@
                     android:textSize="18sp"
                     android:textStyle="bold" />
 
-                <!-- Input untuk Memo -->
                 <com.google.android.material.textfield.TextInputEditText
                     android:id="@+id/etMemo"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="48dp"
                     android:hint="Masukkan memo"
                     android:inputType="text" />
 
@@ -96,7 +96,13 @@
                     android:text="Tambah Memo"
                     android:backgroundTint="@color/black"/>
 
-                <!-- Menampilkan Memo yang sudah ditambahkan -->
+                <Button
+                    android:id="@+id/btnSeeMemo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lihat Memo"
+                    android:backgroundTint="#66b2b2"/>
+
                 <TextView
                     android:id="@+id/tvMemo"
                     android:layout_width="match_parent"

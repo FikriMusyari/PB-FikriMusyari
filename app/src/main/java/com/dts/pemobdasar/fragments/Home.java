@@ -56,6 +56,7 @@ public class Home extends Fragment {
                 if (!memoText.isEmpty()) {
                     // Menampilkan memo di TextView
                     tvMemo.setText("Memo: " + memoText);
+                    
                     // Mengosongkan EditText setelah klik
                     etMemo.setText("");
                 } else {
